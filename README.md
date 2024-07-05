@@ -13,6 +13,13 @@
 
 ---
 
+## Useful links
+
+- https://toml.io/en/
+- https://learnxinyminutes.com/docs/toml/
+
+---
+
 ## Libraries
 
 - [Tommy](https://github.com/dezhidki/Tommy)
