@@ -6,8 +6,8 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/GuilhermeStracini/POC-dotnet-toml-handling/badge)](https://www.codefactor.io/repository/github/GuilhermeStracini/POC-dotnet-toml-handling)
 [![GitHub license](https://img.shields.io/github/license/GuilhermeStracini/POC-dotnet-toml-handling)](https://github.com/GuilhermeStracini/POC-dotnet-toml-handling)
 [![GitHub last commit](https://img.shields.io/github/last-commit/GuilhermeStracini/POC-dotnet-toml-handling)](https://github.com/GuilhermeStracini/POC-dotnet-toml-handling)
-[![Deploy via ftp](https://github.com/GuilhermeStracini/POC-dotnet-toml-handling/actions/workflows/build.yml/badge.svg)](https://github.com/GuilhermeStracini/POC-dotnet-toml-handling/actions/workflows/build.yml)
-[![PHP Linting](https://github.com/GuilhermeStracini/POC-dotnet-toml-handling/actions/workflows/linter.yml/badge.svg)](https://github.com/GuilhermeStracini/POC-dotnet-toml-handling/actions/workflows/linter.yml)
+[![Build](https://github.com/GuilhermeStracini/POC-dotnet-toml-handling/actions/workflows/build.yml/badge.svg)](https://github.com/GuilhermeStracini/POC-dotnet-toml-handling/actions/workflows/build.yml)
+[![Linting](https://github.com/GuilhermeStracini/POC-dotnet-toml-handling/actions/workflows/linter.yml/badge.svg)](https://github.com/GuilhermeStracini/POC-dotnet-toml-handling/actions/workflows/linter.yml)
 
 🔬 Proof of Concept of handling TOML format (write/read/manipulating) using some C# libraries.
 
@@ -20,8 +20,10 @@
 
 ## Results
 
-### Library #1
+### ❓ Tommy
 
-### Library #2
+Add results or findings related to the Tommy library here.
 
-### Library N
+### ❓ Tomlyn
+
+Add results or findings related to the Tomlyn library here.
