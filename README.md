@@ -19,6 +19,31 @@
 - https://learnxinyminutes.com/docs/toml/
 
 ---
+## Using Tommy Library
+
+The `Tommy` library can be used to parse TOML configuration files with ease. Below is a basic example:
+
+```csharp
+using Tommy;
+using System.IO;
+using System;
+```
+
+## Examples
+
+- **Reading a TOML String**
+
+```csharp
+string toml = @"
+[example]
+key = ""value""
+";
+using var reader = new StringReader(toml);
+var table = TOML.Parse(reader);
+Console.WriteLine($""Key: {table[""example""][""key""].AsString}"");
+```
+
+Refer to the [Tommy documentation](https://github.com/dezhidki/Tommy) for more details.
 
 ## Libraries
 
