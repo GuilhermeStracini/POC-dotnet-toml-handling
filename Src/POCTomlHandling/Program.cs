@@ -20,10 +20,7 @@ internal static class Program
         var builder = new StringBuilder();
         Toml.FromModel(table, builder);
         Console.WriteLine(builder.ToString());
-            @"
-        [example]
-        key = ""value""
-        ";
+
         using var reader = new StringReader(toml);
         var table = TOML.Parse(reader);
         Console.WriteLine($"Key: {table["example"]["key"].AsString.Value}");
