@@ -12,7 +12,7 @@ public class TommyTests
         // Arrange
         var toml =
             @"
-        [example]    
+        [example]
         key = ""value""
         ";
         using var reader = new StringReader(toml);
