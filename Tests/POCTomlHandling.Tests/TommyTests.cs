@@ -7,12 +7,22 @@ namespace POCTomlHandling.Tests;
 public class TommyTests
 {
     [Fact]
-    public void ParseTomlString()
+    public void ParseTomlStringWithTommy()
     {
         // Arrange
         var toml =
             @"
-        [example]
+        [example]    
+        key = ""value""
+        ";
+        using var reader = new StringReader(toml);
+
+        // Act
+        var table = TOML.Parse(reader);
+
+        // Assert
+        table["example"]["key"].AsString.Value.Should().Be("value");
+    }
 
     [Fact]
     public void ParseTomlStringWithTomlyn()
@@ -29,15 +39,5 @@ public class TommyTests
 
         // Assert
         table["example"].AsTable()["key"].Should().Be("value");
-    }
-        key = ""value""
-        ";
-        using var reader = new StringReader(toml);
-
-        // Act
-        var table = TOML.Parse(reader);
-
-        // Assert
-        table["example"]["key"].AsString.Value.Should().Be("value");
     }
 }
