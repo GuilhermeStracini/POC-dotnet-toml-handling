@@ -1,10 +1,11 @@
-using FluentAssertions;
+﻿using FluentAssertions;
 using POCTomlHandling.Libraries;
-using Tommy;
+using Tomlyn;
+using Tomlyn.Model;
 
 namespace POCTomlHandling.Tests;
 
-public class TommyTests
+public class TomlynTests
 {
     [Fact]
     public void ParseTomlString()
@@ -15,7 +16,7 @@ public class TommyTests
         [example]
         key = ""value""
         ";
-        var parser = new TommyParser();
+        var parser = new TomlynParser();
 
         // Act
         var result = parser.ParseTomlString(toml, "example", "key");
