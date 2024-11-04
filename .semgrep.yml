@@ -1,0 +1,6 @@
+rules:
+  - id: csharp-security
+    patterns:
+      - pattern-either: "System.IO.File.*"
+    message: "Avoid using System.IO.File methods directly."
+    severity: WARNING
