@@ -34,3 +34,5 @@ Add results or findings related to the Tommy library here.
 ### ❓ Tomlyn
 
 Add results or findings related to the Tomlyn library here.
+## Code Scanning Tools
+This repository supports code scanning tools like SonarCloud, SonarQube, CodeQL, and Semgrep. Please connect a supported tool to enhance code quality and security.
